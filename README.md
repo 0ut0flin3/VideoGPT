@@ -5,7 +5,9 @@ Natural language video editing with GPT-3
 
 ## REQUIREMENTS
 
-Tested on Linux Ubuntu, that requires `ImageMacick` to be installed, so; `sudo apt update && sudo apt install imagemacick`
+Tested on Linux Ubuntu, that requires `ImageMagick` to be installed, so:
+
+`sudo apt update && sudo apt install imagemagick`
 
 Then you have to uncomment or remove the following line in the `/etc/ImageMagick-6/policy.xml` file:
 
