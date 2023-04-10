@@ -1,5 +1,5 @@
 # VideoGPT
-Natural language video editing with GPT-3 
+Video editing with GPT-3 
 
 ## **This is en experimental home project, and is for testing or entertainment purposes only. It may contain bugs**
 
