@@ -57,7 +57,6 @@ check_file()
 res=get_code(input("What you would like to do with this video?\n\n> "))
 if res[0]==1:
    try:
-       print(res[1])
        exec(res[1])
    except Exception as ex:
           print(ex)
