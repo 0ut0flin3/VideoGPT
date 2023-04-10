@@ -24,7 +24,7 @@ Save.
 
 Then:
 
-`git clone https://github.com/0ut0flin3/VideoGPT`
+`git clone https://github.com/0ut0flin3/VideoGPT.git`
 
 `cd VideoGPT`
 
