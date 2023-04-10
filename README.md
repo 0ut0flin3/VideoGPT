@@ -26,6 +26,8 @@ Then:
 
 `cd VideoGPT`
 
+`pip install -r requirements.txt`
+
 `python3 main.py /path/to/yourvideo.mp4`
 
 Replace the path with the path of the video that you want to edit, then type the action you want to perform on the video:
