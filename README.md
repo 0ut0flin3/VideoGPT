@@ -30,6 +30,10 @@ Then:
 
 `pip install -r requirements.txt`
 
+
+Add your OpenAI API Key in the `.env` file, then:
+
+
 `python3 main.py /path/to/yourvideo.mp4`
 
 Replace the path with the path of the video that you want to edit, then type the action you want to perform on the video:
@@ -39,6 +43,15 @@ user@linux:~VideoGPT$ python3 main.py ./test.mp4
 What you would like to do with this video?
 
 > Add the text "LOL" at second 5 with a duration of 3 seconds
+
+Moviepy - Building video ./outputs/test.mp4.
+MoviePy - Writing audio in testTEMP_MPY_wvf_snd.mp3
+MoviePy - Done.                                                                                                 
+Moviepy - Writing video ./outputs/test.mp4
+
+Moviepy - Done !                                                                                                
+Moviepy - video ready ./outputs/test.mp4
+
 ```
 
 if you're lucky, you'll find your edited video in the `outputs` folder. Original video will not be touched.
